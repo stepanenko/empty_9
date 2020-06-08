@@ -1,3 +1,7 @@
+## Gatsby Project
+
+Inspired by **[Brad Traversy](https://www.youtube.com/watch?v=6YhqQ2ZW1sc)**
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
