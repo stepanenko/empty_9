@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Brad Gatsby Crash`,
+    title: `Brad Gatsby`,
     description: `Create great Gatsby project with this default starter.`,
     author: `stepanenco`,
   },
