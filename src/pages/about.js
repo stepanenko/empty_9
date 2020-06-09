@@ -12,7 +12,7 @@ const AboutPage = () => (
     <p>
       Candid conversations with the most interesting and inspirational people that you’ve never heard of. Host, Chris Do, interviews people from all walks of life about the fringes of design, technology, marketing and business all in hopes of changing the way you think.
       </p>
-    <Link to="/">Home Page</Link>
+    <Link to="/">Go to Home</Link>
   </Layout>
 );
 

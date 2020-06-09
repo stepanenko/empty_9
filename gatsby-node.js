@@ -1,27 +1,44 @@
 
-const servicesData = [
-  { name: 'Branding' }, 
-  { name: 'Design' }, 
-  { name: 'Website' }
+const data = [
+  {
+    id: 1,
+    name: 'Branding',
+    brief: 'We help create a unique brand',
+    description: 'You will have a great brand identity and will stand out among competitors'
+  }, 
+  {
+    id: 2,
+    name: 'Design',
+    brief: 'You will get an amazing logo and types',
+    description: 'You will have a great logo and will stand out among competitors'
+  }, 
+  {
+    id: 3,
+    name: 'Website',
+    brief: 'We will help you to build a great website',
+    description: 'You will have a great website and will reach your clients everywhere in the world'
+  }
 ];
 
 exports.createPages = ({ actions: { createPage }}) => {
-  const allServices = servicesData;
-
-  createPage({
-    path: '/services',
-    component: require.resolve("./src/templates/all-services.js"),
-    context: { allServices }
-  });
+  const allServices = data;
 
   allServices.forEach(service => {
     createPage({
-      path: `/service/${service.name}`,
+      path: `/services/${service.name.toLowerCase()}`,
       component: require.resolve("./src/templates/service.js"),
+      context: { service }
+    });
+
+    createPage({
+      path: `/services/${service.name.toLowerCase()}/description`,
+      component: require.resolve("./src/templates/description.js"),
       context: { service }
     });
   });
 }
+
+exports.data = data;
 
 
 /**

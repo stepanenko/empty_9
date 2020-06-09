@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <div style={{ height: '100vh' }}>
       <Header siteTitle={data.site.siteMetadata.title} />
       <Menu />
       <div
@@ -35,12 +35,13 @@ const Layout = ({ children }) => {
           padding: `0 1.0875rem 1.45rem`,
         }}>
         <main>{children}</main>
+        <hr />
         <footer>
-          © {new Date().getFullYear()}, build by
+          © {new Date().getFullYear()}, built by
           <a href="https://github.com/stepanenko"> Stepanenco</a>
         </footer>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -12,11 +12,11 @@ const Quotes = () => (
     <div style={{ maxWidth: `960px`, margin: `1.45rem` }}>
       <ul>
         {JSONData.quotes.map(
-          (quote, index) => <li key={`content_item_${index}`}>{quote.text}</li>
+          (quote, index) => <li key={`item_${index}`}>{quote.text}</li>
         )}
       </ul>
     </div>
-    <Link to="/">Home Page</Link>
+    <Link to="/">Go to Home</Link>
   </Layout>
 );
 

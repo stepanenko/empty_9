@@ -1,27 +1,21 @@
 
 import React from 'react';
 import { Link } from 'gatsby';
-// import PropTypes from "prop-types";
 
-const data = [
-  { name: 'Branding' }, 
-  { name: 'Design' }, 
-  { name: 'Website' }
-];
+import { data } from '../../gatsby-node';
 
 const AllServices = () => (
   <div>
     <h1>Choose a service</h1>
-    <ul style={{ padding: 0 }}>
+    <ul>
       {data.map(service => (
         <li
           key={service.id}
           style={{
-            textAlign: 'center',
             listStyle: 'none',
-            display: 'inline-block'
+            fontWeight: 'bold'
           }}>
-          <Link to={`/service/${service.name}`}>
+          <Link to={`/services/${service.name.toLowerCase()}`}>
             <p>{service.name}</p>
           </Link>
         </li>
@@ -29,13 +23,5 @@ const AllServices = () => (
     </ul>
   </div>
 );
-
-// AllServices.propTypes = {
-//   data: PropTypes.array,
-// };
-
-// AllServices.defaultProps = {
-//   allServices: ``,
-// };
 
 export default AllServices;
