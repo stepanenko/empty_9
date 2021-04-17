@@ -1,9 +1,8 @@
 
 ## Redux Apps
 
-To-do:
+Todo:
 
-- move all redux-related apps here, e.g. from the front page
 - code this example: https://www.youtube.com/watch?v=3sjMRS1gJys
 
 ### Completed:
