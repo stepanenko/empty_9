@@ -3,6 +3,7 @@
 
 #### Todo:
 
+- checkout this [official redux example](https://github.com/reduxjs/redux-essentials-example-app/tree/tutorial-steps)
 - code this example: https://www.youtube.com/watch?v=3sjMRS1gJys
 
 #### Completed:
