@@ -3,7 +3,6 @@
 
 #### Todo:
 
-- checkout this [official redux example](https://github.com/reduxjs/redux-essentials-example-app/tree/tutorial-steps)
 - learn [redux thunk middleware](https://github.com/reduxjs/redux-thunk)
 - code this example: https://www.youtube.com/watch?v=3sjMRS1gJys
 
