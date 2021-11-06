@@ -1,6 +1,8 @@
 
 ## Redux Apps
 
+Updated all app on 06.11.2021
+
 #### Todo:
 
 - learn [redux thunk middleware](https://github.com/reduxjs/redux-thunk)
