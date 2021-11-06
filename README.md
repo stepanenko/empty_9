@@ -1,7 +1,9 @@
 
 ## Redux Apps
 
-Updated all app on 06.11.2021
+My Redux Notes repo: https://github.com/stepanenko/react-info
+
+Updated all apps on **06.11.2021**
 
 #### Todo:
 
